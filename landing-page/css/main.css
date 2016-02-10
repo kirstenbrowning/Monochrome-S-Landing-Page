@@ -1,0 +1,136 @@
+/* 
+Project Name: Landing Page
+Client: Monochrome Sluts
+Author: Kirsten Browning
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+     padding:0;
+}
+
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+body {
+     font-family: 'Helvetica', sans-serif;
+     font-size:16px;
+}
+
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	margin: 10% auto;
+     text-align:center;
+
+}
+
+.site-header {
+}
+.site-header h1 {
+	color:#000;
+     font-size:1.2rem;
+     font-weight:;
+     letter-spacing:0.4rem;
+}
+
+@media screen and (max-width:500px) {
+     .site-header h1 {
+          font-size:1rem;
+     }
+}
+
+/*@media screen and (max-width:400px) {
+     .site-header h1 {
+          font-size:0.7rem;
+     }
+}*/
+.logo {
+     max-width:50%;
+     margin: 0 auto;
+}
+@media screen and (max-width:500px) {
+     .logo {
+          max-width:60%;
+     }
+}
+@media screen and (max-width:400px) {
+     .logo {
+          max-width:70%;
+     }
+}
+
+.site-footer {  
+     margin-top:10px;
+     max-height:40px;  
+}
+
+.social li{
+     display:inline-block;
+     max-width:30px;
+     max-height:30px;
+     margin:10px;
+}
+
+@media screen and (max-width:500px) {
+     .social li {
+          max-width:25px;
+          margin:8px;
+     }
+}
+@media screen and (max-width:500px) {
+     .social li {
+          max-width:20px;
+          margin:5px;
+     }
+}
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
